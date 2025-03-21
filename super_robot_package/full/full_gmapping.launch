@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<launch>
+
+     <include file="$(find super_robot_package)/full_rs_odom.launch"/>
+
+     <include file="$(find super_robot_package)/drivers/tf_transforms.launch"/>
+
+     <include file="$(find super_robot_package)/drivers/slam_gmapping.launch"/>
+          
+     
+     <include file="$(find super_robot_package)/launch/full_start_lidar.launch"/>
+          
+</launch>
